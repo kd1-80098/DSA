@@ -14,10 +14,10 @@ public class RankOfInteger {
 	}
 	
 	public static int rankOfInteger(int arr[],int size,int key)
-	{	int cnt=0;
+	{	int cnt=-1;
 		for(int i=0;i<size;i++)
 		{	cnt++;
-			int ele=arr[i];
+			
 			if(arr[i]==key)
 				break;	
 		}
