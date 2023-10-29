@@ -18,17 +18,17 @@ public class Queue {
 	}
 
 	public boolean isEmpty() {
-		return rear == -1;
+		return rear==0;
 	}
 	
 	public void push(int data)
 	{
 		rear++;
-		arr[rear]=data;
+		arr[rear]=data;				
 	}
 	public int peek()
 	{
-		return arr[front + 1];
+		return arr[front+1];
 	}
 	
 	public void pop()
